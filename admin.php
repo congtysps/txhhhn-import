@@ -1,5 +1,6 @@
 <?php
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 class TX_Admin {
 
 	public function __construct() {
