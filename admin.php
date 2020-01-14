@@ -84,8 +84,14 @@ class TX_Admin {
 						}
 						$post_excerpt = '';
 
+						if($product['productColor']!='') {
+							$post_excerpt .= '<p>Màu sắc: <strong>'.$product['productColor'].'</strong></p>';
+						}
 						if($product['productOrigin']!='') {
 							$post_excerpt .= '<p>Xuất xứ: <strong>'.$product['productOrigin'].'</strong></p>';
+						}
+						if($product['productSize']!='') {
+							$post_excerpt .= '<p>Kích thước: <strong>'.$product['productSize'].'</strong></p>';
 						}
 						if($product['productMaterial']!='') {
 							$post_excerpt .= '<p>Chất liệu: <strong>'.$product['productMaterial'].'</strong></p>';
