@@ -2,7 +2,7 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 class TX_Admin {
-
+ 
 	public function __construct() {
 
 		add_action('admin_menu', array($this, 'admin_menu'), 50);
